@@ -22,3 +22,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+See [手把手教你使用Electron5+vue-cli3开发跨平台桌面应用](https://zhuanlan.zhihu.com/p/75764907)
