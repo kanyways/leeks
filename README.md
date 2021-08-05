@@ -1,5 +1,9 @@
 # leeks
 
+## Env
+
+- NodeJS：v16.6.1
+
 ## Project setup
 ```
 npm install

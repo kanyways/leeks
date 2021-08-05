@@ -14,7 +14,7 @@ protocol.registerSchemesAsPrivileged([
 async function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
-    width: 800,
+    width: 1000,
     height: 600,
     webPreferences: {
 
@@ -24,7 +24,7 @@ async function createWindow() {
       contextIsolation: !process.env.ELECTRON_NODE_INTEGRATION
     },
     // eslint-disable-next-line no-undef
-    icon: `${__static}/app.ico`,
+    icon: `${__static}/app.ico`
   })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
